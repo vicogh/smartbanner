@@ -13,7 +13,7 @@
     // Detect banner type (iOS, Android, Windows Phone or Windows RT)
     if (this.options.force) {
       this.type = this.options.force
-    } else if (navigator.userAgent.match(/iPad|iPhone|iPod/i) != null && navigator.userAgent.match(/Safari/i) != null) {
+    } else if (navigator.userAgent.match(/iPad|iPhone|iPod/i) != null && navigator.userAgent.match(/Safari/i) != null && navigator.userAgent.match(/Opera|OPR/i) != null) {
       if (
         (window.Number(navigator.userAgent.substr(navigator.userAgent.indexOf('OS ') + 3, 3).replace('_', '.')) < 6)
         || navigator.userAgent.match(/Version/i) == null
