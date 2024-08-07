@@ -1,8 +1,6 @@
 /*!
  * jQuery Smart Banner
- * Copyright (c) 2014 Nicolas KOKLA
- * Forked from the Copyrighted project 'jquery.smartbanner' [Copyright (c) 2012 Arnold Daniels <arnold@jasny.net>]
- * Based on 'jQuery Smart Web App Banner' by Kurt Zenisek @ kzeni.com
+ * Copyright (c) 2024 Axo
  */
 !function ($) {
   var SmartBanner = function (options) {
